@@ -1,0 +1,15 @@
+#f1{
+    color:rgb(90, 135, 204)
+}
+#f2{
+    color:crimson
+}
+#f3{
+    background-color:forestgreen
+}
+#p{
+    border-style:solid;
+    border-width: 2px;
+    border-color:crimson;
+    padding: 5px
+}

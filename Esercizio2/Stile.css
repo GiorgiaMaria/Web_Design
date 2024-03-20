@@ -1,0 +1,16 @@
+#f1 {
+    color:darkgreen;
+    text-align: center;
+}
+#t1 {
+    color:orangered;
+}
+#t2 {
+    color:blueviolet;
+}
+#f2 {
+    border-color: crimson;
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+}

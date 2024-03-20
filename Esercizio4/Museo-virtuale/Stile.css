@@ -1,0 +1,78 @@
+/*IDS*/
+
+#colore {
+    color: rgba(41, 48, 54, 0.495);
+}
+#titolo {
+    font-size: 50px;
+    text-decoration: none;
+    color:rgb(72, 72, 100);
+    font-weight: bolder;
+}
+#titolo2 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/*CLASSES*/
+
+.bordo {
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0);
+    box-sizing: auto;
+    margin: 30px;
+    padding: 5px;
+}
+
+.bordo2 {
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0);
+    box-sizing: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bordo3 {
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0);
+    box-sizing: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    column-gap: 2px;
+}
+
+
+/*SELECTORS*/
+
+header {
+    background-color: rgba(122, 152, 181, 0.495);
+    margin: 0%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display:grid;
+    }
+
+a {
+    color:rgb(72, 72, 100);
+}
+    
+a:hover {
+    color: rgb(193, 212, 215);
+}
+
+body {
+        background-color: rgb(193, 212, 215);
+        margin: 0%;
+        }
+p {
+    font-size: 30px;
+     color:rgb(57, 57, 87);
+     font-weight: bolder;
+     padding: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+

@@ -1,0 +1,16 @@
+.sfondo {
+    background-color: rgb(132, 153, 188);
+}
+.img {
+    height: 35px;
+}
+h1 {
+    font-size: 32px;
+    color: rgb(13, 35, 67);
+}
+.testo {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgb(13, 35, 67);
+}  
