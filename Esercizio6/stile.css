@@ -1,0 +1,42 @@
+/*POSITION*/
+
+#absolute {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+#contenitore {
+    width: 500px;
+    height: 1000px;
+}
+
+#sticky {
+    position: sticky;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+/*ELEMENT*/
+
+body {
+    background-color: rgb(234, 250, 255);
+}
+
+h1, p {
+    color: rgb(65, 91, 99);
+}
