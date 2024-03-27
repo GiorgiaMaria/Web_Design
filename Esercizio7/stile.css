@@ -1,0 +1,13 @@
+.div1 {
+    width: 200px;
+    height: 100px;
+    color: magenta;
+}
+
+.div2 {
+    color: blue;
+}
+
+.div2:hover {
+    color: red;
+}

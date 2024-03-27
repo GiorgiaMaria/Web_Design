@@ -1,0 +1,66 @@
+#main {
+    color: rgb(46, 68, 99);
+    line-height: 25px;
+}
+
+#title {
+    color: rgb(46, 68, 99);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: auto;
+    height: auto;
+}
+
+#img-caption {
+    font-size: 30px;
+    line-height: 25px;
+    color: rgb(93, 120, 157);
+}
+
+#tribute-info {
+    color: rgb(46, 68, 99);
+}
+
+#tribute-link {
+    text-decoration: none;
+}
+
+#p1 {
+    font-size: 30px;
+    line-height: 25px;
+}
+
+#p2 {
+    font-size: 20px;
+    color: rgb(93, 120, 157);
+    line-height: 15px;
+}
+
+body {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(176, 208, 255);
+}
+img {
+    align-items: center;
+    margin-top: -100px;
+}
+
+h1, h2, h3 {
+    font-size: 40px;
+}
+
+a {
+    font-size: 30px;
+    color: rgb(93, 120, 157);
+}
