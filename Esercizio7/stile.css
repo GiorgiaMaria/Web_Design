@@ -1,13 +1,33 @@
 .div1 {
     width: 200px;
     height: 100px;
-    color: magenta;
+    background-color: magenta;
+    transition-duration: 2s;
+    transition-timing-function: linear;
 }
 
 .div2 {
-    color: blue;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-duration: 1s;
+    animation-name: square;
+    animation-iteration-count: infinite;
 }
 
-.div2:hover {
-    color: red;
+.div1:hover {
+    background-color: yellow;
+    transform: translate(50px);
+}
+
+@keyframes square {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
 }
