@@ -45,6 +45,12 @@
     column-gap: 2px;
 }
 
+.area {
+    grid-area: "myArea";
+    display: grid;
+    grid-template-areas: 'myArea myArea...';
+    grid-gap: 10px;
+}
 
 /*SELECTORS*/
 
